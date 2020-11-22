@@ -41,9 +41,9 @@ Create the necessary methods to connect these classes.
 #### Ingredients
 
 - #dessert
-  - should return a dessert object for that ingredient
+  - should return an array of all dessert objects that use this ingredient
 - #bakery
-  - should return the bakery object for the bakery that uses that ingredient
+  - should return the bakery objects for the bakeries that use that ingredient
 - .all
   - should return an array of all ingredients
 - .find_all_by_name(ingredient)
